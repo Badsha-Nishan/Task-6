@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+#align {
+  max-width: 1920px;
+  width: 75%;
+  margin: 0 auto;
+}
+.btn-primary {
+  background-color: #e55473;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 20px 43px;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #801240;
+}
+header {
+  background-color: #e5547310;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 97px;
+  justify-content: space-between;
+  min-height: 850px;
+}
+.content {
+  max-width: 708px;
+}
+.img {
+  max-width: 635px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+header h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+header p,
+main > p {
+  font-size: 1.8rem;
+  line-height: 30px;
+  margin-bottom: 32px;
+  color: #27272760;
+}
+
+main {
+  text-align: center;
+}
+main h2 {
+  margin-top: 180px;
+  margin-bottom: 24px;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.card-box {
+  text-align: center;
+}
+.cards p {
+  margin-top: 32px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card {
+  padding: 110px 78px 0 76px;
+  max-width: 464px;
+  background-color: #a7216215;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+}
+
+.icons {
+  margin: 128px auto;
+  background-color: #27272710;
+  border-radius: 8px;
+  padding: 86px 175px;
+}
+.icon {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icon-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon-content img {
+  margin-bottom: 24px;
+  max-width: 77px;
+}
+.icon-content p {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #27272780;
+}
+@media screen and (max-width: 1280px) {
+  #align {
+    width: 85%;
+  }
+  .header {
+    gap: 70px;
+    min-height: auto;
+    padding: 30px;
+  }
+  header h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #align {
+    width: 90%;
+  }
+  .header {
+    gap: 50px;
+    min-height: auto;
+  }
+  header h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #align {
+    width: 95%;
+  }
+  .header {
+    gap: 30px;
+    min-height: auto;
+  }
+  header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+}
