@@ -53,7 +53,9 @@ header h1 {
 }
 header p,
 main > p,
-.hot-content p {
+.hot-content p,
+.insta > p,
+.input p {
   font-size: 1.8rem;
   line-height: 30px;
   margin-bottom: 32px;
@@ -75,7 +77,7 @@ main h2,
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 .card-box {
@@ -143,7 +145,53 @@ main h2,
   margin-top: 0;
 }
 .deal {
-  background-color: #e5547310;
+  background-color: #ff003710;
+}
+.insta {
+  text-align: center;
+}
+
+.input input {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  margin-right: 16px;
+  width: 100%;
+  max-width: 700px;
+  min-height: 64px;
+  background-color: #fff;
+}
+.subscribe {
+  margin: 50px auto !important;
+  display: flex;
+  justify-content: center;
+  min-height: 450px;
+  border-radius: 8px;
+  background: url("./Flower\ Asset/Rectangle 9.png") no-repeat center / cover;
+}
+
+footer {
+  min-height: 450px;
+  text-align: center;
+  background-color: black;
+}
+footer h2 {
+  padding-top: 128px;
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: #e55473;
+  margin-bottom: 24px;
+}
+footer p {
+  margin: 0 auto;
+  max-width: 640px;
+  font-size: 1.8rem;
+  color: #ffffff90;
+  margin-bottom: 24px;
+}
+footer span {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: bold;
 }
 @media screen and (max-width: 1280px) {
   #align {
