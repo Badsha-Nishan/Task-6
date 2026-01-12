@@ -10,7 +10,7 @@ body {
 }
 #align {
   max-width: 1920px;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 .btn-primary {
@@ -52,7 +52,8 @@ header h1 {
   margin-bottom: 32px;
 }
 header p,
-main > p {
+main > p,
+.hot-content p {
   font-size: 1.8rem;
   line-height: 30px;
   margin-bottom: 32px;
@@ -62,7 +63,8 @@ main > p {
 main {
   text-align: center;
 }
-main h2 {
+main h2,
+.hot-content h2 {
   margin-top: 180px;
   margin-bottom: 24px;
   font-size: 4rem;
@@ -120,6 +122,29 @@ main h2 {
   font-weight: 500;
   color: #27272780;
 }
+
+.hot-content span {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #e55473;
+}
+
+.hot-deal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 186px;
+  padding: 100px;
+}
+.hot-img img {
+  max-width: 100%;
+}
+.hot-content h2 {
+  margin-top: 0;
+}
+.deal {
+  background-color: #e5547310;
+}
 @media screen and (max-width: 1280px) {
   #align {
     width: 85%;
@@ -133,6 +158,11 @@ main h2 {
     font-size: 5rem;
     font-weight: 600;
     margin-bottom: 32px;
+  }
+  main h2,
+  .hot-content h2 {
+    margin-top: 80px;
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -148,6 +178,13 @@ main h2 {
     font-weight: 500;
     margin-bottom: 24px;
   }
+  .hot-img img {
+    max-width: 200%;
+  }
+  .hot-content h2 {
+    margin-top: 80px;
+    font-size: 2rem;
+  }
 }
 @media screen and (max-width: 768px) {
   #align {
@@ -161,5 +198,8 @@ main h2 {
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 16px;
+  }
+  .hot-img img {
+    max-width: 200%;
   }
 }
